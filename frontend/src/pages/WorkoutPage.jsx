@@ -29,7 +29,7 @@ const initialForm = {
 
 export default function WorkoutPage() {
   const [workouts, setWorkouts] = useState([]);
-  const [loading, setLoading] = useState(true);
+  const [, setLoading] = useState(true);
   const [submitting, setSubmitting] = useState(false);
   const [form, setForm] = useState(initialForm);
   const [showForm, setShowForm] = useState(false);

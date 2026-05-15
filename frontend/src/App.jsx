@@ -21,10 +21,7 @@ because old dark theme may still be forcing old UI
 */
 
 // Route Guards
-import {
-  ProtectedRoute,
-  AdminRoute
-} from './components/common/ProtectedRoute';
+import AdminRoute from "./components/AdminRoute";
 
 // Pages
 import LandingPage from './pages/LandingPage';
@@ -36,7 +33,7 @@ import NutritionPage from './pages/NutritionPage';
 import GoalsPage from './pages/GoalsPage';
 import AIPage from './pages/AIPage';
 import ProfilePage from './pages/ProfilePage';
-import AdminPage from './pages/AdminPage';
+import AdminPage from "./pages/AdminPage";
 
 export default function App() {
   return (
