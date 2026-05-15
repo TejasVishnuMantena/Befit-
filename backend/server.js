@@ -4,7 +4,7 @@
 const express = require('express');
 const cors = require('cors');
 const dotenv = require('dotenv');
-const rateLimit = require('express-rate-limit');
+//const rateLimit = require('express-rate-limit');
 const connectDB = require('./config/db');
 
 // Load environment variables
@@ -28,11 +28,11 @@ app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true }));
 
 // Rate limiting - prevent abuse
-const limiter = rateLimit({
-  windowMs: 15 * 60 * 1000, // 15 minutes
-  max: 100, // max 100 requests per windowMs
-  message: { success: false, message: 'Too many requests, please try again later.' },
-});
+//const limiter = rateLimit({
+//  windowMs: 15 * 60 * 1000, // 15 minutes
+ // max: 100, // max 100 requests per windowMs
+//  message: { success: false, message: 'Too many requests, please try again later.' },
+//});
 app.use('/api/', limiter);
 
 // ── Routes ──────────────────────────────────────────────────
