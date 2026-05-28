@@ -129,39 +129,6 @@ fitsync-ai/
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js v18+
-- MongoDB Atlas account (free tier)
-- Git
-
-### 1. Clone the repo
-```bash
-git clone https://github.com/yourusername/fitsync-ai.git
-cd fitsync-ai
-```
-
-### 2. Backend Setup
-```bash
-cd backend
-npm install
-# Edit backend/.env with your MongoDB URI and JWT secret
-npm run dev
-# Server starts at http://localhost:5001
-```
-
-### 3. Frontend Setup
-```bash
-cd ../frontend
-npm install
-# frontend/.env already points to http://localhost:5001/api
-npm start
-# App opens at http://localhost:3000
-```
-
----
-
 ## 🔑 Environment Variables
 
 ### Backend `.env`
@@ -274,4 +241,12 @@ After deploying, register normally, then in MongoDB Atlas:
 
 ---
 
-*University Mini Project — Be Fit | Your Effort. Your Result.*
+*Be Fit | Your Effort. Your Result.*
+
+---
+
+
+## 👨‍💻 Author
+
+Developed by **Tejas Vishnu Mantena**
+
