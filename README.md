@@ -1,4 +1,4 @@
-# 💪 Be Fit — Smart Health & Fitness Tracker
+# 💪 Be Fit (Ai) — Smart Health & Fitness Tracker
 
 > A full-stack MERN web application with AI-powered fitness insights, PWA support, and beautiful glassmorphism UI.
 
